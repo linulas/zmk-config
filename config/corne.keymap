@@ -79,10 +79,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2        &kp N3        &kp N4        &kp N5          &kp N6         &kp N7    &kp N8   &kp N9     &kp N0  &trans
-&trans  &kp LG(LS(TAB))  &kp LG(TAB)   &kp LS(TAB)   &kp TAB       &bt BT_SEL 4    &kp LEFT       &kp DOWN  &kp UP   &kp RIGHT  &trans  &trans
-&trans  &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans         &trans    &trans   &trans     &trans  &trans
-                                       &kp ESCAPE    &trans        &kp SPACE       &kp BACKSPACE  &trans    &kp RET
+&trans  &kp N1       &kp N2        &kp N3        &kp N4        &kp N5          &kp N6            &kp N7           &kp N8          &kp N9            &kp N0  &trans
+&trans  &kp LS(TAB)  &kp TAB       &trans        &trans        &bt BT_SEL 4    &kp LEFT          &kp DOWN         &kp UP          &kp RIGHT         &trans  &trans
+&trans  &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp LG(NUMBER_1)  &kp LC(LS(TAB))  &kp LC(TAB)     &kp LG(NUMBER_9)  &trans  &trans
+                                   &kp ESCAPE    &trans        &kp SPACE       &kp RGUI          &kp RIGHT_ALT    &kp LEFT_SHIFT
             >;
         };
 
@@ -94,10 +94,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL   &kp AT  &kp HASH    &kp DLLR  &kp PRCNT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp TILDE  &trans  &trans      &trans    &trans       &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &trans     &trans  &trans      &trans    &trans       &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
-                           &kp ESCAPE  &trans    &kp SPACE    &kp BACKSPACE  &trans     &kp RET
+&trans  &kp EXCL   &kp AT  &kp HASH        &kp DLLR      &kp PRCNT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans  &kp TILDE  &trans  &trans          &trans        &trans       &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
+&trans  &trans     &trans  &trans          &trans        &trans       &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
+                           &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI     &kp BACKSPACE  &trans     &kp RET
             >;
         };
     };
